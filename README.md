@@ -6,10 +6,8 @@ Paket ini berisi **seluruh langkah Data Science dari data mentah sampai siap dis
 > ⚠️ **Semua data di paket ini adalah SINTETIS (simulasi)** — bukan data operasional nyata Sumber Urip. Tujuannya mengembangkan dan menguji pipeline.
 > Saat data primer dari buku Sumber Urip sudah didigitalkan, taruh di `data/raw/` dengan skema yang sama lalu jalankan ulang. Kesimpulan bisnis hanya boleh diambil dari data primer.
 
-## Deploy: GitHub + Streamlit Community Cloud
-1. Buat repositori di GitHub (disarankan **private**), lalu upload seluruh isi folder ini (`app.py`, `pages/`, `assets/`, `data/`, `.streamlit/`, `requirements.txt` harus ikut).
-2. Buka https://share.streamlit.io → **New app** → pilih repositori dan branch, **Main file path = `app.py`** → Deploy.
-3. Selesai: halaman utama = tampilan dashboard, menu kiri **Eksplorasi Interaktif** = versi dengan filter dan unggah CSV.
+##  Streamlit Community Cloud
+1.https://datadashboard-nmvwhpttkgbgzm6zza8a4c.streamlit.app/
 
 > Data di repositori ini sintetis. Folder `_kunci_jawaban/` sengaja tidak disertakan. File `handoff/.../product_costs_OWNER_ONLY.csv` memuat harga modal, jadi tetap gunakan repositori private untuk data nyata.
 
